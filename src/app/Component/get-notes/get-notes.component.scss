@@ -1,0 +1,45 @@
+.card-container {
+    padding-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* Adjust the width of each card as needed */
+    margin-bottom: 20px; /* Add margin between cards */
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  .buttion
+  {
+    margin-left: 190px;
+  }
+  .pin-img{
+    padding-top: 6px;
+    //padding-left: 250px;
+    //margin-left: 80px;
+    //margin-bottom: 20px;
+    //text-align: end;
+    //padding-bottom: 200px;
+    // margin-right: 10px;
+    margin-left: 180px
+  }
+  
+//   .notesContainer {
+//     /* Your existing styles for mat-card */
+//   }
+  
+  .title {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+//   .text {
+//     /* Your existing styles for text */
+//   }
+  

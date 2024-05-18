@@ -1,0 +1,30 @@
+button mat-icon{
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.692);
+    
+}
+
+button:hover{
+    background-color: #c9cdd3cd;
+}
+.app-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.colorIcon {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.colorName {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: rgb(7, 0, 0); /* or any color that contrasts with the background */
+    font-size: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add shadow for better readability */
+}

@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'google sans';
+}
+.contianer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(192, 41, 41);
+    border-radius: 10px;
+}
+.google-logo
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.contianer h2
+{
+    margin: 0,0,-0.125rem;
+    padding: 0;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contianer p
+{
+font-size: 16px;
+font-weight: normal;
+color: rgb(25, 25, 25);
+letter-spacing: .1px;
+line-height: 1.5;
+margin-bottom: 25px;
+text-align: center;
+}
+
+.labelinput{
+    width: 95%;
+    height: 20%;
+}
+
+.forgot button
+{
+    border-radius: 10px;
+    display: inline-block;
+    color: rgb(9, 101, 237);
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size:inherit ;
+    padding: 0;
+    text-align: left;
+    border: 0;
+}
+.contianer input[type="submit"]
+{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(33, 85, 231);
+    padding: 0.625rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    float: right;
+}
+.contianer input[type="submit"]:hover
+{
+    background-color: rgb(88, 204, 88);
+}
+.Register p 
+{
+    text-align: left;
+    margin-top: 50px;
+}
+
+// .contianer .inputBox input:focus ~label,
+// .contianer .inputBox input:valid ~label,
+// .contianer .inputBox input:not([value=""]) ~label
+// {
+//     top:- .915rem;
+//     left: 10px;
+//     color: rgb(49, 133, 235);
+//     font-size: .75rem;
+//     background-color: #fff;
+//     height:10px;
+//     padding: 0 5px;
+
+// }
+// .contianer .inputBox input:focus
+// {
+//     outline: none;
+//     border: 2px solid rgb(31, 142, 221);
+
+// }
+// .contianer .Register
+// {
+//     position: absolute;
+//     top: 90%;
+//     left: 50px;
+//     padding: 0.625rem;
+//     font-size: 1rem;
+//     color: #d71b1b;
+//     pointer-events:none;
+//     cursor:pointer ;
+//     transition: 0.3s;
+    
+// }
+// .contianer .Register :hover
+// {
+//     background-color: red;
+// }
+// #abc
+// {
+//     cursor: pointer;
+// }

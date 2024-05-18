@@ -1,0 +1,42 @@
+ 
+<div class="contianer">
+    <div class="google-logo" style="font-size: 24px; color: #4285F4; font-weight: bold;">G<span style="color: #EA4335;">o</span><span style="color: #FBBC05;">o</span><span style="color: #4285F4;">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span></div>
+
+<h2>Sign In</h2>
+<P>Use a google account </P>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="inputs">
+        <div>
+
+        <mat-form-field appearance="outline" class ="labelinput">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter your Email" formControlName="email">   
+            <mat-error *ngIf="loginForm.get('email')?.hasError('required')">
+                Email is required.
+            </mat-error>
+            <mat-error *ngIf="loginForm.get('email')?.hasError('email')">
+                Email is not valid.
+            </mat-error>
+          </mat-form-field>
+        </div>
+        
+        <div>
+            <mat-form-field appearance="outline" class ="labelinput">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Enter  your password" formControlName="password">   
+              </mat-form-field>
+        </div>
+          
+    </div>
+   
+    <div class="forgot">
+        <button routerLink="/forgot">Forgot your password ?</button>
+        <input type="submit"name="Sign-in"value="sign In">
+    </div>
+    
+    <div class="Register" >
+        <p> you don't have account ? <a href="/register">Register</a></p>
+    </div>
+</form>
+
+</div> 

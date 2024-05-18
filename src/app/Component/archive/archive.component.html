@@ -1,0 +1,15 @@
+<div class="card-container">
+    <div *ngFor="let notes of array" class="card">
+      <mat-card class="notesContainer" [style.background]="notes.color">
+        <mat-card-title class="title"> {{notes.title}}
+        </mat-card-title>
+        <mat-card-content>
+          <div style="min-height: 35px;display: block;overflow-wrap:break-word ;">{{notes.description}}</div>
+          <div>{{notes.noteid}}</div>
+        </mat-card-content>
+        <div class="button">
+          <app-icons></app-icons>
+        </div>
+      </mat-card>
+    </div>
+  </div> 

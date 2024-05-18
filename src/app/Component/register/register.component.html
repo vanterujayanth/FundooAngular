@@ -1,0 +1,54 @@
+
+<div class="contianer">
+    
+    <div>
+    <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+      <div class="google-logo" style="font-size: 24px; color: #4285F4; font-weight: bold;">G<span style="color: #EA4335;">o</span><span style="color: #FBBC05;">o</span><span style="color: #4285F4;">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span></div>
+
+    <h2>Create your  google account </h2>
+        <div class="inputs">
+            <div class="name">
+            <mat-form-field appearance="outline" class ="labelinput">
+                <mat-label>FirstName</mat-label>
+                <input matInput placeholder="Enter your first Name" formControlName="firstName">   
+              </mat-form-field>
+              <mat-form-field appearance="outline" class ="labelinput" >
+                <mat-label>LastName</mat-label>
+                <input matInput placeholder="Enter your Last Name" formControlName="lastName">   
+              </mat-form-field>
+            </div>
+            <div class="Email">
+                <mat-form-field appearance="outline" class ="labelinput">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Enter your email" formControlName="email">   
+                  </mat-form-field>
+            </div>
+            <div class="name">
+                <mat-form-field appearance="outline" class ="labelinput">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Enter password" formControlName="password">   
+                  </mat-form-field>
+                  <mat-form-field appearance="outline" class ="labelinput">
+                    <mat-label>Confirm</mat-label>
+                    <input matInput placeholder="Re-Enter  password" formControlName="email">   
+                  </mat-form-field>
+            </div>
+            <p>*Use 8 or more characters with a mix of numners & symbols</p>
+            <section class="checkbox">
+                <mat-checkbox class="example">Show password</mat-checkbox>  
+              </section>
+              <div class="forgot">
+                <button routerLink="/login">Sign in instead</button>
+                <input type="submit"name=""value="next">
+            </div>
+            
+        </div> 
+    </form>
+    </div>
+    
+      <div class="profile-pic">
+        <img  class="image1" src="../../assets/img.jpeg"/>
+        <p>One account. All of Google <span>working for you.</span></p>
+      </div> 
+    
+</div>

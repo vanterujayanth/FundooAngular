@@ -1,0 +1,162 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'google sans';
+}
+.contianer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(68, 139, 231);
+    border-radius: 10px;
+    display: flex;
+}
+h2
+{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.name
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+
+}
+.name .labelinput
+{
+    width: 48%;
+    height: 65px;
+}
+.Email .labelinput
+{
+    width: 95%;
+    height: 65px;
+}
+.checkbox
+{
+    padding-bottom: 15%;
+    
+}
+.forgot button
+{
+    border-radius: 10px;
+    display: inline-block;
+    color: rgb(4, 102, 248);
+    font-weight: 500;
+    letter-spacing: .25px;
+    outline: 0;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-size:inherit ;
+    padding: 0%;
+    border: 0;
+}
+.forgot button:hover
+{
+    color: red;
+}
+.image1{
+    width:400px;
+    height:350px;
+    padding-right: 50px;
+  }
+  .profile-pic
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding-right: 15px;
+  }
+
+.contianer input[type="submit"]
+{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(33, 85, 231);
+    padding: 0.625rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+     float: right;
+}
+.contianer input[type="submit"]:hover
+{
+    background-color: rgb(88, 204, 88);
+}
+// .contianer .inputBox input:focus ~label,
+// .contianer .inputBox input:valid ~label,
+// .contianer .inputBox input:not([value=""]) ~label
+// {
+//     top:- .915rem;
+//     left: 10px;
+//     color: rgb(54, 144, 240);
+//     font-size: .75rem;
+//     background-color: #fffcfc;
+//     height:10px;
+//     padding: 0 5px;
+
+// }
+// .contianer .inputBox input:focus
+// {
+//     outline: none;
+//     border: 2px solid rgb(31, 142, 221);
+
+// }
+// .contianer h2
+// {
+//     margin: 0,0,-0.125rem;
+//     padding: 0;
+//     color: rgb(24, 24, 24);
+//     text-align: center;
+//     font-size: 24px;
+//     font-weight: bold;
+// }
+// .contianer p
+// {
+// font-size: 16px;
+// font-weight: normal;
+// color: rgb(25, 25, 25);
+// letter-spacing: .1px;
+// line-height: 1.5;
+// margin-bottom: 25px;
+// text-align: center;
+// }
+// .contianer .inputBox
+// {
+// position: relative;
+// }
+// .contianer .inputBox input
+// {
+//     width: 95%;
+//     padding: 0.7rem 10px;
+//     font-size: 1rem;
+//     letter-spacing: 0.05rem;
+//     margin-bottom: 1.9rem;
+//     background:transparent;
+//     border: 1px solid rgb(138, 135, 135);
+//     border-radius: 10px;
+
+// }
+// .contianer .inputBox label
+// {
+//     position: absolute;
+//     top: 0;
+//     left: 10px;
+//     padding: 0.625rem;
+//     font-size: 1rem;
+//     color: #535050;
+//     pointer-events: none;
+//     transition: 0.3s;
+// }
